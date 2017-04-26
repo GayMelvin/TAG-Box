@@ -1,0 +1,46 @@
+<!--
+  Generated template for the Emprunts page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+
+    <ion-title>Emprunts</ion-title>
+    <!-- <ion-buttons  end>
+      <button (click)="addObject()">
+        <ion-icon name="add"></ion-icon>
+      </button>
+    </ion-buttons>  -->
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <p> Voici les objets en libre échange : </p>
+
+
+  <ion-list>
+  <!--  <ion-list-header>Voici les objets en libre échange :</ion-list-header> -->
+    <ion-item *ngFor="let object of objectList | async">
+      <ion-icon name="book" danger item-left></ion-icon>
+      <h2><span>{{object.name}}</span></h2>
+      <h3><span>description</span> : {{object.description}}</h3>
+
+      <h4><span>état </span>: {{object.etat}}</h4>
+
+     <!-- <button ion-buttons class="infosBtn" (click)="displayInfos(object.$key)">Infos</button>   -->
+      <button ion-buttons class="empruntBtn" (click)="emprunter(object.$key, object.etat)">Emprunter</button>
+
+    </ion-item>
+
+    <button ion-button class="addObjectBtn" full type="submit" (click)="addObject()">Ajouter un nouvel objet </button>
+
+
+
+  </ion-list>
+</ion-content>

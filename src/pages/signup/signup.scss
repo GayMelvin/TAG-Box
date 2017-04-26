@@ -1,0 +1,29 @@
+page-signup {
+
+  .scroll-content{
+    background-color: #696969;
+    color:white;
+    overflow:hidden;
+  }
+
+
+  .createAccountBtn{
+    background-color: #A52A2A;
+    color:white;
+    margin-top: 5vh;
+    border-radius:12px 0 12px 0;
+    border: solid 1px black;
+    width:80%;
+    left:10%;
+  }
+
+  .createAccountBtn:hover{
+
+    transition:0.5s;
+    border-radius:0 12px 0 12px;
+
+  }
+  .invalid { border-bottom: 1px solid #FF6153; }
+
+  .error-message .item-inner { border-bottom: 0 !important; }
+}

@@ -1,0 +1,33 @@
+page-add-object {
+
+
+  .scroll-content{
+    background-color: #696969;
+    color:white;
+  }
+
+  p{
+    border: solid 5px #A52A2A;
+    border-radius: 12px 0;
+    background-color:#A52A2A;
+    padding: 10px 0px 10px 0px;
+  }
+
+  #addObjectBtn{
+    margin-top: 4vh;
+    background-color: #A52A2A;
+    color:white;
+    border-radius:12px 0 12px 0;
+    transition: 0.5s;
+  }
+
+
+  #addObjectBtn:hover{
+    font-size:11pt;
+    transition:0.5s;
+    border-radius:0 12px 0 12px;
+
+  }
+
+
+}

@@ -1,0 +1,73 @@
+tabs-page {
+
+
+  /*                                              Android                                     */
+  .tabs-md .tab-button {
+    padding: 0;
+    min-height: 5.6rem;
+    font-weight: normal;
+    transition: 0.5s;
+    color: #A52A2A;
+
+    background-color: white;
+  }
+
+  .tabs-md .tabbar {
+    background: white;
+  }
+
+  .tabs-md .tab-button[aria-selected=true] {
+    padding-right: 20px;
+    padding-left: 20px;
+    color: white;
+    transition: 0.5s;
+    font-size: 3vh;
+    background-color: #A52A2A;
+    border-left: solid 3px black ;
+    border-right: solid 3px black ;
+    border-radius: 5px;
+  }
+
+
+  .tabs-md .tab-button[aria-selected=true] .tab-button-icon {
+    color: white;
+    -webkit-transform: translate3d(0, -2px, 0);
+    transform: translate3d(0, -2px, 0);
+    transition: 0.5s;
+  }
+
+  .tabs-md .tab-button .tab-button-icon {
+    color: #A52A2A;
+    transition: 0.5s;
+  }
+
+
+  /*                                              IOS                                               */
+
+
+  .tabs-ios .tab-button:hover:not(.disable-hover),
+  .tabs-ios .tab-button[aria-selected=true] {
+    padding-right: 20px;
+    padding-left: 20px;
+    color: white;
+    transition: 0.5s;
+    /* font-size: 2vh; */
+    background-color: #A52A2A;
+    border-left: solid 3px black ;
+    border-right: solid 3px black ;
+    border-radius: 5px;
+  }
+
+  .tabs-ios .tab-button[aria-selected=true] .tab-button-icon {
+    color: white;
+    -webkit-transform: translate3d(0, -1px, 0);
+    transform: translate3d(0, -1px, 0);
+    transition: 0.5s;
+  }
+
+
+
+
+
+
+}

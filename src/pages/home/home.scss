@@ -1,0 +1,48 @@
+page-home {
+
+  span{
+    font-weight: bold;
+  }
+  .scroll-content{
+    background-color: #696969;
+    color:white;
+    overflow:hidden;
+  }
+
+  p{
+    border: solid 5px #A52A2A;
+    border-radius: 12px 12px;
+    background-color:#A52A2A;
+    padding: 10px 0px 10px 0px;
+  }
+
+  h1,h2,h3{
+    color:#ffffff;
+    text-align: center;
+  }
+
+  .EmpruntsBtn{
+    margin-top: 12vh;
+    align-content: center;
+    background-color: #A52A2A;
+    border: solid 1px black;
+    color:white;
+    font-weight: bold;
+    border-radius:12px 0 12px 0;
+    width:60%;
+    left:20%;
+    transition: 0.5s;
+
+  }
+
+
+  .EmpruntsBtn:hover{
+
+    transition:0.5s;
+    border-radius:0 12px 0 12px;
+
+  }
+
+
+
+}

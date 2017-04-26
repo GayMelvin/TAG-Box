@@ -1,0 +1,59 @@
+page-emprunts {
+
+
+  h1,h2,h3,h4{
+    word-wrap: break-word;
+    padding-top:2vh;
+  }
+
+
+  span{
+    font-weight: bold;
+  }
+  ion-item{
+    background-color: #A52A2A;
+
+
+  }
+
+  ion-label{
+    white-space: normal;
+  }
+  .scroll-content{
+    background-color: #696969;
+    color:white;
+  }
+
+  p{
+    border: solid 5px #A52A2A;
+    border-radius: 12px 12px;
+    background-color:#A52A2A;
+    padding: 10px 0;
+  }
+
+  .empruntBtn, .infosBtn{
+    background-color: #A52A2A;
+    color:white;
+    margin:1vh;
+    padding:1vh;
+    border-radius:12px 0 ;
+    border: solid 1px black;
+
+  }
+
+.addObjectBtn{
+
+  margin-top: 3vh;
+  align-content: center;
+  background-color: #A52A2A;
+  border: solid 1px black;
+  color:white;
+  font-weight: bold;
+  width:60%;
+  left:20%;
+  transition: 0.5s;
+}
+
+
+
+}
